@@ -1,0 +1,79 @@
+.App-main-container{
+  width: 60%;
+  height: 101%;
+  /* overflow: auto; */
+  background-color: white;
+  /* border: solid 1px orange; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  /* padding-left: 200px;
+  padding-right: 200px; */
+}
+
+.App-main-container-center{
+  width: 100%;
+  height: 20%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 20px; */
+  padding-top: 20px;
+  /* border: solid 1px rgb(62, 112, 28); */
+}
+.Add-image{
+  width: 15px;
+  height: 15px;
+  border: 2px solid rgb(241, 182, 182);
+  margin-top: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(241, 182, 182);
+}
+.Add-image:hover{
+  cursor: pointer;
+}
+input[type="file"] {
+  display: none;
+}
+.Add-image input{
+  /* width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1; */
+}
+.App-main-container-bottom{
+  width: 70%;
+  min-height: 65%;
+  /* background-color: rgb(43, 226, 226); */
+  border-top: 2px solid rgb(241, 182, 182);
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  /* margin-top: 10px; */
+  /* margin-bottom: 50px; */
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* grid-template-columns: auto auto auto; */
+  gap: 12px;
+  
+}
+img{
+  width: 130px;
+  height: 150px;
+  border: 1px solid rebeccapurple;
+   object-fit: contain; /*This property properly set image */
+  
+}
+
+.App-main-container-center button{
+  cursor: pointer;
+  padding: 1px 20px;
+}
